@@ -13,12 +13,13 @@ syn keyword L_conditional   if then else
 syn keyword L_builtin       print readInt readString isNil
 syn keyword L_constant      Nil
 
+syn match L_paren "\V("
+syn match L_paren "\V)"
+
 syn match L_operator "\V+"
 syn match L_operator "\V-"
 syn match L_operator "\V*"
 syn match L_operator "\V/"
-syn match L_operator "\V("
-syn match L_operator "\V)"
 syn match L_operator "\V="
 syn match L_operator "\V<"
 syn match L_operator "\V>"
@@ -43,6 +44,7 @@ hi def link L_function      Keyword
 hi def link L_builtin       Function
 hi def link L_conditional   Conditional
 hi def link L_operator      Operator
+hi def link L_paren         Label
 hi def link L_number        Number
 hi def link L_string        String
 hi def link L_comment       Comment
