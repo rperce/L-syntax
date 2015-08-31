@@ -33,11 +33,10 @@ syn match L_operator "\V>="
 syn match L_operator "\V<>"
 
 syn match L_number  "\v\d+"
-syn match L_string  "\v\".*\""
 syn match L_ident   "\v[a-zA-Z_][a-zA-Z0-9_]+"
 
 syn region L_comment start="\V(*" end="\V*)" contains=L_comment
-
+syn region L_string  start="\""   end="\""
 
 let b:current_syntax = "L"
 hi def link L_basicwords    Keyword
