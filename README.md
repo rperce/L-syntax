@@ -18,7 +18,7 @@ With [Vundle](https://github.com/VundleVim/Vundle.vim), put
 
     Plugin 'rperce/L-syntax'
 
-in the Vundle section of your `.vimrc`, then run `PluginInstall` inside vim.
+in the Vundle section of your `.vimrc`, then run `:PluginInstall` inside vim.
 
 
 If you don't use a plugin manager at all, I'd recommend using one of the above plugin
@@ -35,4 +35,4 @@ under your `.vim` directory directly, so you have something like
        |
        +- L.vim
 
-Make sure you put the correct L.vim in the correct spot.
+Make sure you put the correct `L.vim` in the correct spot.
