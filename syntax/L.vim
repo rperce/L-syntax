@@ -32,7 +32,7 @@ syn match L_operator "\V<="
 syn match L_operator "\V>="
 syn match L_operator "\V<>"
 
-syn match L_comment "\v\(\*.*\*\)"
+syn match L_comment "\v\(\*\_.*\*\)"
 syn match L_number  "\v\d+"
 syn match L_string  "\v\".*\""
 syn match L_ident   "\v[a-zA-Z_][a-zA-Z0-9_]+"
