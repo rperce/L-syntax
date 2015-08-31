@@ -47,5 +47,5 @@ hi def link L_number        Number
 hi def link L_string        String
 hi def link L_comment       Comment
 hi def link L_constant      Constant
-hi def link L_ident         Identifier
+hi def link L_ident         Normal
 
