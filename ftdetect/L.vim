@@ -1,1 +1,1 @@
-au BufNewRead,BufRead *.L set ft=L
+au BufNewFile,BufRead *.L set ft=L
