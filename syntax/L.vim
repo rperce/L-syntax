@@ -32,13 +32,14 @@ syn match L_operator "\V<="
 syn match L_operator "\V>="
 syn match L_operator "\V<>"
 
-syn match L_comment "\v\(\*\_.*\*\)"
 syn match L_number  "\v\d+"
 syn match L_string  "\v\".*\""
 syn match L_ident   "\v[a-zA-Z_][a-zA-Z0-9_]+"
 
-let b:current_syntax = "L"
+syn region L_comment start="\V(*" end="\V*)"
 
+
+let b:current_syntax = "L"
 hi def link L_basicwords    Keyword
 hi def link L_function      Keyword
 hi def link L_builtin       Function
