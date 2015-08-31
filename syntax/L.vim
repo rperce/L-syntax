@@ -36,7 +36,7 @@ syn match L_number  "\v\d+"
 syn match L_string  "\v\".*\""
 syn match L_ident   "\v[a-zA-Z_][a-zA-Z0-9_]+"
 
-syn region L_comment start="\V(*" end="\V*)"
+syn region L_comment start="\V(*" end="\V*)" extend
 
 
 let b:current_syntax = "L"
